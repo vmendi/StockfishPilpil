@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>68EFF805-7A3A-454C-A70A-9B76A70D6A71</string>
+	<key>IDESourceControlProjectName</key>
+	<string>StockfishPilpil</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>532D782513703D0A1A4A9D65E137B4765F087062</key>
+		<string>https://github.com/vmendi/StockfishPilpil.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>StockfishPilpil.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>532D782513703D0A1A4A9D65E137B4765F087062</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/vmendi/StockfishPilpil.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>532D782513703D0A1A4A9D65E137B4765F087062</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>532D782513703D0A1A4A9D65E137B4765F087062</string>
+			<key>IDESourceControlWCCName</key>
+			<string>StockfishPilpil</string>
+		</dict>
+	</array>
+</dict>
+</plist>

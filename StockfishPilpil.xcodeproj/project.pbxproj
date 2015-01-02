@@ -1,0 +1,364 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		221590E31A57438300FC16B0 /* benchmark.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 221590BA1A57438300FC16B0 /* benchmark.cpp */; };
+		221590E41A57438300FC16B0 /* bitbase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 221590BB1A57438300FC16B0 /* bitbase.cpp */; };
+		221590E51A57438300FC16B0 /* bitboard.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 221590BC1A57438300FC16B0 /* bitboard.cpp */; };
+		221590E61A57438300FC16B0 /* endgame.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 221590BF1A57438300FC16B0 /* endgame.cpp */; };
+		221590E71A57438300FC16B0 /* evaluate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 221590C11A57438300FC16B0 /* evaluate.cpp */; };
+		221590E81A57438300FC16B0 /* Makefile in Sources */ = {isa = PBXBuildFile; fileRef = 221590C31A57438300FC16B0 /* Makefile */; };
+		221590E91A57438300FC16B0 /* material.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 221590C41A57438300FC16B0 /* material.cpp */; };
+		221590EA1A57438300FC16B0 /* misc.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 221590C61A57438300FC16B0 /* misc.cpp */; };
+		221590EB1A57438300FC16B0 /* movegen.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 221590C81A57438300FC16B0 /* movegen.cpp */; };
+		221590EC1A57438300FC16B0 /* movepick.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 221590CA1A57438300FC16B0 /* movepick.cpp */; };
+		221590ED1A57438300FC16B0 /* pawns.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 221590CC1A57438300FC16B0 /* pawns.cpp */; };
+		221590EE1A57438300FC16B0 /* position.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 221590CF1A57438300FC16B0 /* position.cpp */; };
+		221590EF1A57438300FC16B0 /* search.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 221590D21A57438300FC16B0 /* search.cpp */; };
+		221590F11A57438300FC16B0 /* tbprobe.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 221590D71A57438300FC16B0 /* tbprobe.cpp */; };
+		221590F21A57438300FC16B0 /* thread.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 221590D91A57438300FC16B0 /* thread.cpp */; };
+		221590F31A57438300FC16B0 /* timeman.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 221590DB1A57438300FC16B0 /* timeman.cpp */; };
+		221590F41A57438300FC16B0 /* tt.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 221590DD1A57438300FC16B0 /* tt.cpp */; };
+		221590F51A57438300FC16B0 /* uci.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 221590E01A57438300FC16B0 /* uci.cpp */; };
+		221590F61A57438300FC16B0 /* ucioption.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 221590E21A57438300FC16B0 /* ucioption.cpp */; };
+		221590F81A5746F100FC16B0 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 221590F71A5746F100FC16B0 /* main.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		221590A91A57417E00FC16B0 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		221590AB1A57417E00FC16B0 /* StockfishPilpil */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = StockfishPilpil; sourceTree = BUILT_PRODUCTS_DIR; };
+		221590BA1A57438300FC16B0 /* benchmark.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = benchmark.cpp; path = src/benchmark.cpp; sourceTree = SOURCE_ROOT; };
+		221590BB1A57438300FC16B0 /* bitbase.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = bitbase.cpp; path = src/bitbase.cpp; sourceTree = SOURCE_ROOT; };
+		221590BC1A57438300FC16B0 /* bitboard.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = bitboard.cpp; path = src/bitboard.cpp; sourceTree = SOURCE_ROOT; };
+		221590BD1A57438300FC16B0 /* bitboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = bitboard.h; path = src/bitboard.h; sourceTree = SOURCE_ROOT; };
+		221590BE1A57438300FC16B0 /* bitcount.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = bitcount.h; path = src/bitcount.h; sourceTree = SOURCE_ROOT; };
+		221590BF1A57438300FC16B0 /* endgame.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = endgame.cpp; path = src/endgame.cpp; sourceTree = SOURCE_ROOT; };
+		221590C01A57438300FC16B0 /* endgame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = endgame.h; path = src/endgame.h; sourceTree = SOURCE_ROOT; };
+		221590C11A57438300FC16B0 /* evaluate.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = evaluate.cpp; path = src/evaluate.cpp; sourceTree = SOURCE_ROOT; };
+		221590C21A57438300FC16B0 /* evaluate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = evaluate.h; path = src/evaluate.h; sourceTree = SOURCE_ROOT; };
+		221590C31A57438300FC16B0 /* Makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; name = Makefile; path = src/Makefile; sourceTree = SOURCE_ROOT; };
+		221590C41A57438300FC16B0 /* material.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = material.cpp; path = src/material.cpp; sourceTree = SOURCE_ROOT; };
+		221590C51A57438300FC16B0 /* material.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = material.h; path = src/material.h; sourceTree = SOURCE_ROOT; };
+		221590C61A57438300FC16B0 /* misc.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = misc.cpp; path = src/misc.cpp; sourceTree = SOURCE_ROOT; };
+		221590C71A57438300FC16B0 /* misc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = misc.h; path = src/misc.h; sourceTree = SOURCE_ROOT; };
+		221590C81A57438300FC16B0 /* movegen.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = movegen.cpp; path = src/movegen.cpp; sourceTree = SOURCE_ROOT; };
+		221590C91A57438300FC16B0 /* movegen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = movegen.h; path = src/movegen.h; sourceTree = SOURCE_ROOT; };
+		221590CA1A57438300FC16B0 /* movepick.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = movepick.cpp; path = src/movepick.cpp; sourceTree = SOURCE_ROOT; };
+		221590CB1A57438300FC16B0 /* movepick.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = movepick.h; path = src/movepick.h; sourceTree = SOURCE_ROOT; };
+		221590CC1A57438300FC16B0 /* pawns.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = pawns.cpp; path = src/pawns.cpp; sourceTree = SOURCE_ROOT; };
+		221590CD1A57438300FC16B0 /* pawns.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = pawns.h; path = src/pawns.h; sourceTree = SOURCE_ROOT; };
+		221590CE1A57438300FC16B0 /* platform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = platform.h; path = src/platform.h; sourceTree = SOURCE_ROOT; };
+		221590CF1A57438300FC16B0 /* position.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = position.cpp; path = src/position.cpp; sourceTree = SOURCE_ROOT; };
+		221590D01A57438300FC16B0 /* position.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = position.h; path = src/position.h; sourceTree = SOURCE_ROOT; };
+		221590D11A57438300FC16B0 /* psqtab.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = psqtab.h; path = src/psqtab.h; sourceTree = SOURCE_ROOT; };
+		221590D21A57438300FC16B0 /* search.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = search.cpp; path = src/search.cpp; sourceTree = SOURCE_ROOT; };
+		221590D31A57438300FC16B0 /* search.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = search.h; path = src/search.h; sourceTree = SOURCE_ROOT; };
+		221590D71A57438300FC16B0 /* tbprobe.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = tbprobe.cpp; sourceTree = "<group>"; };
+		221590D81A57438300FC16B0 /* tbprobe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tbprobe.h; sourceTree = "<group>"; };
+		221590D91A57438300FC16B0 /* thread.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = thread.cpp; path = src/thread.cpp; sourceTree = SOURCE_ROOT; };
+		221590DA1A57438300FC16B0 /* thread.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = thread.h; path = src/thread.h; sourceTree = SOURCE_ROOT; };
+		221590DB1A57438300FC16B0 /* timeman.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = timeman.cpp; path = src/timeman.cpp; sourceTree = SOURCE_ROOT; };
+		221590DC1A57438300FC16B0 /* timeman.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = timeman.h; path = src/timeman.h; sourceTree = SOURCE_ROOT; };
+		221590DD1A57438300FC16B0 /* tt.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = tt.cpp; path = src/tt.cpp; sourceTree = SOURCE_ROOT; };
+		221590DE1A57438300FC16B0 /* tt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = tt.h; path = src/tt.h; sourceTree = SOURCE_ROOT; };
+		221590DF1A57438300FC16B0 /* types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = types.h; path = src/types.h; sourceTree = SOURCE_ROOT; };
+		221590E01A57438300FC16B0 /* uci.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = uci.cpp; path = src/uci.cpp; sourceTree = SOURCE_ROOT; };
+		221590E11A57438300FC16B0 /* uci.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = uci.h; path = src/uci.h; sourceTree = SOURCE_ROOT; };
+		221590E21A57438300FC16B0 /* ucioption.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ucioption.cpp; path = src/ucioption.cpp; sourceTree = SOURCE_ROOT; };
+		221590F71A5746F100FC16B0 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = main.cpp; path = src/main.cpp; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		221590A81A57417E00FC16B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		221590A21A57417E00FC16B0 = {
+			isa = PBXGroup;
+			children = (
+				221590AD1A57417E00FC16B0 /* src */,
+				221590AC1A57417E00FC16B0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		221590AC1A57417E00FC16B0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				221590AB1A57417E00FC16B0 /* StockfishPilpil */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		221590AD1A57417E00FC16B0 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				221590F71A5746F100FC16B0 /* main.cpp */,
+				221590BA1A57438300FC16B0 /* benchmark.cpp */,
+				221590BB1A57438300FC16B0 /* bitbase.cpp */,
+				221590BC1A57438300FC16B0 /* bitboard.cpp */,
+				221590BD1A57438300FC16B0 /* bitboard.h */,
+				221590BE1A57438300FC16B0 /* bitcount.h */,
+				221590BF1A57438300FC16B0 /* endgame.cpp */,
+				221590C01A57438300FC16B0 /* endgame.h */,
+				221590C11A57438300FC16B0 /* evaluate.cpp */,
+				221590C21A57438300FC16B0 /* evaluate.h */,
+				221590C31A57438300FC16B0 /* Makefile */,
+				221590C41A57438300FC16B0 /* material.cpp */,
+				221590C51A57438300FC16B0 /* material.h */,
+				221590C61A57438300FC16B0 /* misc.cpp */,
+				221590C71A57438300FC16B0 /* misc.h */,
+				221590C81A57438300FC16B0 /* movegen.cpp */,
+				221590C91A57438300FC16B0 /* movegen.h */,
+				221590CA1A57438300FC16B0 /* movepick.cpp */,
+				221590CB1A57438300FC16B0 /* movepick.h */,
+				221590CC1A57438300FC16B0 /* pawns.cpp */,
+				221590CD1A57438300FC16B0 /* pawns.h */,
+				221590CE1A57438300FC16B0 /* platform.h */,
+				221590CF1A57438300FC16B0 /* position.cpp */,
+				221590D01A57438300FC16B0 /* position.h */,
+				221590D11A57438300FC16B0 /* psqtab.h */,
+				221590D21A57438300FC16B0 /* search.cpp */,
+				221590D31A57438300FC16B0 /* search.h */,
+				221590D41A57438300FC16B0 /* syzygy */,
+				221590D91A57438300FC16B0 /* thread.cpp */,
+				221590DA1A57438300FC16B0 /* thread.h */,
+				221590DB1A57438300FC16B0 /* timeman.cpp */,
+				221590DC1A57438300FC16B0 /* timeman.h */,
+				221590DD1A57438300FC16B0 /* tt.cpp */,
+				221590DE1A57438300FC16B0 /* tt.h */,
+				221590DF1A57438300FC16B0 /* types.h */,
+				221590E01A57438300FC16B0 /* uci.cpp */,
+				221590E11A57438300FC16B0 /* uci.h */,
+				221590E21A57438300FC16B0 /* ucioption.cpp */,
+			);
+			name = src;
+			path = StockfishPilpil;
+			sourceTree = "<group>";
+		};
+		221590D41A57438300FC16B0 /* syzygy */ = {
+			isa = PBXGroup;
+			children = (
+				221590D71A57438300FC16B0 /* tbprobe.cpp */,
+				221590D81A57438300FC16B0 /* tbprobe.h */,
+			);
+			name = syzygy;
+			path = src/syzygy;
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		221590AA1A57417E00FC16B0 /* StockfishPilpil */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 221590B21A57417E00FC16B0 /* Build configuration list for PBXNativeTarget "StockfishPilpil" */;
+			buildPhases = (
+				221590A71A57417E00FC16B0 /* Sources */,
+				221590A81A57417E00FC16B0 /* Frameworks */,
+				221590A91A57417E00FC16B0 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StockfishPilpil;
+			productName = StockfishPilpil;
+			productReference = 221590AB1A57417E00FC16B0 /* StockfishPilpil */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		221590A31A57417E00FC16B0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Victor Mendiluce";
+				TargetAttributes = {
+					221590AA1A57417E00FC16B0 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+				};
+			};
+			buildConfigurationList = 221590A61A57417E00FC16B0 /* Build configuration list for PBXProject "StockfishPilpil" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 221590A21A57417E00FC16B0;
+			productRefGroup = 221590AC1A57417E00FC16B0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				221590AA1A57417E00FC16B0 /* StockfishPilpil */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		221590A71A57417E00FC16B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				221590F61A57438300FC16B0 /* ucioption.cpp in Sources */,
+				221590E81A57438300FC16B0 /* Makefile in Sources */,
+				221590E41A57438300FC16B0 /* bitbase.cpp in Sources */,
+				221590F51A57438300FC16B0 /* uci.cpp in Sources */,
+				221590F31A57438300FC16B0 /* timeman.cpp in Sources */,
+				221590EF1A57438300FC16B0 /* search.cpp in Sources */,
+				221590F21A57438300FC16B0 /* thread.cpp in Sources */,
+				221590EE1A57438300FC16B0 /* position.cpp in Sources */,
+				221590E91A57438300FC16B0 /* material.cpp in Sources */,
+				221590F41A57438300FC16B0 /* tt.cpp in Sources */,
+				221590EC1A57438300FC16B0 /* movepick.cpp in Sources */,
+				221590F81A5746F100FC16B0 /* main.cpp in Sources */,
+				221590E61A57438300FC16B0 /* endgame.cpp in Sources */,
+				221590E31A57438300FC16B0 /* benchmark.cpp in Sources */,
+				221590EA1A57438300FC16B0 /* misc.cpp in Sources */,
+				221590EB1A57438300FC16B0 /* movegen.cpp in Sources */,
+				221590E71A57438300FC16B0 /* evaluate.cpp in Sources */,
+				221590F11A57438300FC16B0 /* tbprobe.cpp in Sources */,
+				221590E51A57438300FC16B0 /* bitboard.cpp in Sources */,
+				221590ED1A57438300FC16B0 /* pawns.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		221590B01A57417E00FC16B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		221590B11A57417E00FC16B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		221590B31A57417E00FC16B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		221590B41A57417E00FC16B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		221590A61A57417E00FC16B0 /* Build configuration list for PBXProject "StockfishPilpil" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				221590B01A57417E00FC16B0 /* Debug */,
+				221590B11A57417E00FC16B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		221590B21A57417E00FC16B0 /* Build configuration list for PBXNativeTarget "StockfishPilpil" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				221590B31A57417E00FC16B0 /* Debug */,
+				221590B41A57417E00FC16B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 221590A31A57417E00FC16B0 /* Project object */;
+}
